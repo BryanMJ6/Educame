@@ -1,0 +1,78 @@
+/**Para seleccionar el elemento raiz**/
+
+:root {
+    --fuenteHeading: "PT Sans", sans-serif;
+    --fuenteParrafos: "Open Sans", sans-serif;
+
+    --blanco: #ffffffff;
+    --negro: #4441f3;
+}
+
+/**Aqui esta el color de fuente de los parrafos**/
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 18px;
+    line-height: 2;
+}
+
+.pading {
+    margin-right: 7px;
+}
+.no-margin {
+    margin: 0;
+}
+.no-pading {
+    padding: 0;
+}
+.centrar-texto {
+    text-align: center;
+}
+
+/**ESTILOS DE LA CLASE SERVICIO**/
+
+.servicio2 {
+    -webkit-box-shadow: 0px 8px 15px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 8px 15px 0px rgb(255, 255, 255);
+    box-shadow: 0px 8px 15px 0px rgb(255, 255, 255);
+    background-color: var(--blanco);
+    padding: 1rem;
+    border-radius: 8rem; /**ESTO ES PARA REDONDEAR LAS ESQUINAS **/
+}
+
+/**TEXTO*/
+.texto {
+    text-align: center;
+    background-color: #fdfdfd;
+    color: var(--blanco);
+}
+
+/**ESTILO TAMAÑO DE TEXTO**/
+.textonegro {
+    font-weight: 900;
+}
+.colorrojo {
+    background-color: var(--rojo2);
+
+    /**BOTON DE LOGIN**/
+    /**BOTON AZUL*/
+}
+.botonazul {
+    background-color: hsl(241, 100%, 62%);
+    color: rgb(255, 255, 255);
+    border: 3px solid hsl(241, 100%, 62%);
+    background-position-x: left;
+    height: 34.5px;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+
+/**ALINIACION DE TEXTO DE LOGIN**/
+
+.finp {
+    padding-right: 25%;
+}
+
+.aliniacion {
+    padding-right: 30%;
+}
